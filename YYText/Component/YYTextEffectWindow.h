@@ -11,9 +11,9 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextMagnifier.h>
-#import <YYText/YYTextSelectionView.h>
+#if __has_include(<YYText_FixWarnings/YYText.h>)
+#import <YYText_FixWarnings/YYTextMagnifier.h>
+#import <YYText_FixWarnings/YYTextSelectionView.h>
 #else
 #import "YYTextMagnifier.h"
 #import "YYTextSelectionView.h"

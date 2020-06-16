@@ -11,25 +11,25 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYText/YYText.h>)
+#if __has_include(<YYText_FixWarnings/YYText.h>)
 FOUNDATION_EXPORT double YYTextVersionNumber;
 FOUNDATION_EXPORT const unsigned char YYTextVersionString[];
-#import <YYText/YYLabel.h>
-#import <YYText/YYTextView.h>
-#import <YYText/YYTextAttribute.h>
-#import <YYText/YYTextArchiver.h>
-#import <YYText/YYTextParser.h>
-#import <YYText/YYTextRunDelegate.h>
-#import <YYText/YYTextRubyAnnotation.h>
-#import <YYText/YYTextLayout.h>
-#import <YYText/YYTextLine.h>
-#import <YYText/YYTextInput.h>
-#import <YYText/YYTextDebugOption.h>
-#import <YYText/YYTextKeyboardManager.h>
-#import <YYText/YYTextUtilities.h>
-#import <YYText/NSAttributedString+YYText.h>
-#import <YYText/NSParagraphStyle+YYText.h>
-#import <YYText/UIPasteboard+YYText.h>
+#import <YYText_FixWarnings/YYLabel.h>
+#import <YYText_FixWarnings/YYTextView.h>
+#import <YYText_FixWarnings/YYTextAttribute.h>
+#import <YYText_FixWarnings/YYTextArchiver.h>
+#import <YYText_FixWarnings/YYTextParser.h>
+#import <YYText_FixWarnings/YYTextRunDelegate.h>
+#import <YYText_FixWarnings/YYTextRubyAnnotation.h>
+#import <YYText_FixWarnings/YYTextLayout.h>
+#import <YYText_FixWarnings/YYTextLine.h>
+#import <YYText_FixWarnings/YYTextInput.h>
+#import <YYText_FixWarnings/YYTextDebugOption.h>
+#import <YYText_FixWarnings/YYTextKeyboardManager.h>
+#import <YYText_FixWarnings/YYTextUtilities.h>
+#import <YYText_FixWarnings/NSAttributedString+YYText.h>
+#import <YYText_FixWarnings/NSParagraphStyle+YYText.h>
+#import <YYText_FixWarnings/UIPasteboard+YYText.h>
 #else
 #import "YYLabel.h"
 #import "YYTextView.h"

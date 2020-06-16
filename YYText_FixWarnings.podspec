@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'YYText_FixWarnings'
   s.summary      = 'Powerful text framework for iOS to display and edit rich text.'
-  s.version      = '1.0.8'
+  s.version      = '1.0.9'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.authors      = { 'Sun' => 'holaux@gmail.com' }
   s.homepage     = 'https://github.com/oneofai/YYText'
